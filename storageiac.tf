@@ -8,6 +8,6 @@
 
  resource "azurerm_storage_container" "tfstate" {
   name                  = "aksbloginfra"
-  storage_account_id    = "/subscriptions/a7227ddf-a84b-488c-9757-267492f738eb/resourceGroups/aksrginfra/providers/Microsoft.Storage/storageAccounts/aksstorageinfra1100"
+  storage_account_id    = "/subscriptions/YOUR_ID/resourceGroups/aksrginfra/providers/Microsoft.Storage/storageAccounts/aksstorageinfra1100"
   container_access_type = "private"
  }
